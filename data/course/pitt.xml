@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+    <meta>
+        <title>Information Storage and Retrieval</title>
+        <number>INFSCI 2140</number>
+        <instructor>
+            <first-name>Daqing</first-name>
+            <last-name>He</last-name>
+            <university>University of Pittsburgh</university>
+            <school>School of Information Sciences</school>
+            <email>dah44@pitt.edu</email>
+        </instructor>
+    </meta>
+    <content>
+        <description>
+            This course offers an examination of problems and techniques related to storing and accessing unstructured information with an emphasis on textual information, an overview of several approaches to information access with a primary focus on search-based information access, an introduction to automated retrieval system design, content analysis, retrieval models, result presentation, and system evaluation, and applications of retrieval techniques to various issues on the Web, on mobile platforms and other reality settings.
+        </description>
+        <prerequisites>
+            <prerequisite>
+                <title>introduction to logic and statistical analysis</title>
+                <type>required</type>
+            </prerequisite>
+            <prerequisite>
+                <title>high-level programming language</title>
+                <type>required</type>
+            </prerequisite>
+        </prerequisites>
+
+        <modules>
+            <module>
+                <title>introduction and course overview </title>
+                <reading>
+                    <type>textbook</type>
+                    <title>FOA</title>
+                    <chapter>1.1</chapter>
+                    <url>http://www.cs.ucsd.edu/~rik/FOA/</url>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>IES</title>
+                    <chapter>1.1,1.2</chapter>
+                    <url>http://www.ir.uwaterloo.ca/book/01-introduction.pdf</url>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>1.1-1.4</chapter>
+                    <url>http://www.mir2ed.org/</url>
+                </reading>
+            </module>
+
+            <module>
+                <title>document and query processing</title>
+                <reading>
+                    <type>textbook</type>
+                    <title>IIR</title>
+                    <chapter>1.2,2,3</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>4,7.2</chapter>
+                </reading>
+            </module>
+
+            <module>
+                <title>index construction and compression</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>IIR</title>
+                    <chapter>4,5</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>7.4,8</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>matching models: Boolean and vector space</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>IIR</title>
+                    <chapter>1.3,1.4,6</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>2.1-2.5.3</chapter>
+                </reading>
+            </module>
+
+            <module>
+                <title>matching models: probabilistic and language model</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>IIR</title>
+                    <chapter>11,12</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>2.5.4</chapter>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Relating the New Language Models of Information Retrieval to the Traditional Retrieval Models</title>
+                    <url>http://citeseer.ist.psu.edu/299514.html</url>
+                </reading>
+            </module>
+
+            <module>
+                <title>evaluation</title>
+                <reading>
+                    <type>textbook</type>
+                    <title>IIR</title>
+                    <chapter>8</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>3</chapter>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>What's the value of TREC: is there a gap to jump or a chasm to bridge?</title>
+                    <url>http://doi.acm.org/10.1145/1147197.1147198</url>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Cumulated gain-based evaluation of IR techniques</title>
+                    <url>http://doi.acm.org/10.1145/582415.582418</url>
+                </reading>
+            </module>
+
+
+            <module>
+                <title>relevance feedback and query expansion</title>
+                <reading>
+                    <type>textbook</type>
+                    <title>IIR</title>
+                    <chapter>9</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>5</chapter>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Improving the effectiveness of information retrieval with local context analysis</title>
+                    <url>http://doi.acm.org/10.1145/333135.333138</url>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>A study of methods for negative relevance feedback</title>
+                    <url>http://doi.acm.org/10.1145/1390334.1390374</url>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Relevance feedback revisited</title>
+                    <url>http://doi.acm.org/10.1145/133160.133167</url>
+                </reading>
+            </module>
+
+            <module>
+                <title>user interaction and interactive information retrieval</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>10</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>Search User Interfaces</title>
+                    <chapter>1,11</chapter>
+                    <url>http://searchuserinterfaces.com/book/sui_ch1_design.html</url>
+                </reading>
+            </module>
+
+            <module>
+                <title>Web information retrieval</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>IIR</title>
+                    <chapter>19,21</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>MIR</title>
+                    <chapter>13</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>Information retrieval Ayse book</title>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Authoritative sources in a hyperlinked environment</title>
+                    <url>www.cs.cornell.edu/home/kleinber/auth.pdf</url>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>The Anatomy of a Large-Scale Hypertextual Web Search Engine</title>
+                    <url>http://dbpubs.stanford.edu:8090/pub/1998-8</url>
+                </reading>
+            </module>
+
+            <module>
+                <title>intelligent information retrieval</title>
+                <reading>
+                    <type>paper</type>
+                    <title>User Profiles for Personalized Information Access</title>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Content-Based Recommendation Systems</title>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Personalized web exploration with task models</title>
+                    <url>http://doi.acm.org/10.1145/1367497.1367499</url>
+                </reading>
+            </module>
+            <module>
+                <title>text classification and clustering</title>
+                <reading>
+                    <type>textbook</type>
+                    <title>IIR</title>
+                    <chapter>13,14,16,17</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>new fronts in information retrieval</title>
+                <reading>
+                    <type>paper</type>
+                    <title>Cross-Language Information Retrieval</title>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>IES</title>
+                    <chapter>14</chapter>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Learning to rank for information retrieval</title>
+                    <url>http://doi.acm.org/10.1145/1328964.1328974</url>
+                </reading>
+            </module>
+        </modules>
+    </content>
+    <material>
+        <textbooks>
+            <textbook>
+                <title>Introduction to Information Retrieval</title>
+                <alternative-name>IIR</alternative-name>
+                <author>Christopher D. Manning, Prabhakar Raghavan, and Hinrich Schutze</author>
+                <press>Cambridge University Press</press>
+                <year>2008</year>
+                <url>http://nlp.stanford.edu/IR-book/</url>
+            </textbook>
+            <textbook>
+                <title>Information Retrieval: Implementing and Evaluating Search Engines</title>
+                <alternative-name>IES</alternative-name>
+                <author>Stefan Büttcher, Charles L. A. Clarke, Gordon V. Cormack</author>
+                <press>MIT Press</press>
+                <year>2010</year>
+                <url>http://www.ir.uwaterloo.ca/book/</url>
+            </textbook>
+            <textbook>
+                <title>Modern Information Retrieval</title>
+                <alternative-name>MIR</alternative-name>
+                <author>Ricardo Baeza-Yates, Berthier Riberiro-Neto</author>
+                <press>Addison Wesley</press>
+                <year>2011</year>
+                <url>http://www.mir2ed.org/</url>
+            </textbook>
+            <textbook>
+                <title>Finding Out About: A Cognitive Perspective on Search Engine Technology and the WWW</title>
+                <alternative-name>FOA</alternative-name>
+                <author>Richard K. Belew</author>
+                <press>Cambridge University Press</press>
+                <year>2000</year>
+            </textbook>
+        </textbooks>
+    </material>
+</course>

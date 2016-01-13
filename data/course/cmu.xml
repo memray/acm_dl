@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+    <meta>
+        <title>Search Engines</title>
+        <number>11-442/11-642</number>
+        <website>http://boston.lti.cs.cmu.edu/classes/11-642/</website>
+        <instructor>
+            <first-name>Jamie</first-name>
+            <last-name>Callen</last-name>
+            <website>http://www.cs.cmu.edu/~callan/</website>
+            <university>Carnegie Mellon University</university>
+            <school>School of Computer Science</school>
+        </instructor>
+    </meta>
+    <content>
+        <description>
+            This course studies the theory, design, and implementation of text-based search engines. The core components include statistical characteristics of text, representation of information needs and documents, several important retrieval models, and experimental evaluation. The course also covers common elements of commercial search engines, for example, integration of diverse search engines into a single search service ("federated search", "vertical search"), personalized search results, diverse search results, and sponsored search. The software architecture components include design and implementation of large-scale, distributed search engines.
+            This is a full-semester lecture-oriented course worth 12 units.
+        </description>
+        <prerequisites>
+            <prerequisite>
+                <title>Parallel and Sequential Data Structures and Algorithms</title>
+                <number>15-210</number>
+                <type>required</type>
+            </prerequisite>
+            <prerequisite>
+                <title>Introduction to Computer Systems</title>
+                <number>15-213</number>
+                <type>required</type>
+            </prerequisite>
+            <prerequisite>
+                <title>Algorithm Design and Analysis</title>
+                <number>15-451</number>
+                <type>helpful</type>
+            </prerequisite>
+            <prerequisite>
+                <title>Matrix Algebra</title>
+                <number>21-241</number>
+                <type>helpful</type>
+            </prerequisite>
+            <prerequisite>
+                <title>Linear Algebra</title>
+                <number>21-341</number>
+                <type>required</type>
+            </prerequisite>
+            <prerequisite>
+                <title>Probability</title>
+                <number>21-325</number>
+                <type>required</type>
+            </prerequisite>
+            <prerequisite>
+                <title>Basic statistics</title>
+                <number>36-202</number>
+                <type>helpful</type>
+            </prerequisite>
+        </prerequisites>
+
+        <modules>
+            <module>
+                <title>Course overview</title>
+            </module>
+            <module>
+                <title>Introduction to search: Exact-match retrieval</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>2.4</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Introduction to search: Indexes, query processing</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>1</chapter>
+                </reading>
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>5.1</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Evaluating search effectiveness</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>8-8.5</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Evaluating search effectiveness</title>
+
+            </module>
+            <module>
+                <title>Document representation</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>2-2.2</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Best-match retrieval: VSM, BM25</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>6</chapter>
+                </reading>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>11</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Best-match retrieval: Language models</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>12</chapter>
+                </reading>
+            </module>
+
+            <module>
+                <title>Query structure: Information needs and queries</title>
+
+                <reading>
+                    <type>paper</type>
+                    <title>Nguyen & Callan, 2011</title>
+                    <url>http://www.cs.cmu.edu/~callan/Papers/trec10-nguyen.pdf</url>
+                </reading>
+            </module>
+            <module>
+                <title>Query structure: Relevance and pseudo relevance feedback</title>
+
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>9</chapter>
+                </reading>
+            </module>
+
+            <module>
+                <title>Document structure</title>
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>10</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Index creation</title>
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>4</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Index creation</title>
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>7</chapter>
+                </reading>
+            </module>
+
+            <module>
+                <title>Ranked retrieval: Feature-based models</title>
+                Clarke Ch 11.7; Li, 2011
+                <reading>
+                    <type>paper</type>
+                    <title>Clarke Ch 11.7</title>
+                    <url>http://boston.lti.cs.cmu.edu/classes/11-642/Papers/clarke-11.7.pdf</url>
+                </reading>
+                <reading>
+                    <type>paper</type>
+                    <title>Li, 2011</title>
+                    <url>http://boston.lti.cs.cmu.edu/classes/11-642/Papers/li-ieice-tis-11.pdf</url>
+                </reading>
+            </module>
+            <module>
+                <title>Authority metrics</title>
+                <reading>
+                    <type>textbook</type>
+                    <title>Introduction to Information Retrieval</title>
+                    <chapter>21</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Page quality, web spam</title>
+            </module>
+            <module>
+                <title>Diversity</title>
+                <reading>
+                    <type>paper</type>
+                    <title>Santos, Ch 1-5</title>
+                    <chapter>http://boston.lti.cs.cmu.edu/classes/11-642/Papers/santos15-fntir.pdf</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Diversity</title>
+                <reading>
+                    <type>paper</type>
+                    <title>Santos, Ch 6-7</title>
+                    <chapter>http://boston.lti.cs.cmu.edu/classes/11-642/Papers/santos15-fntir.pdf</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Search log analysis</title>
+            </module>
+            <module>
+                <title>Search log analysis</title>
+                <reading>
+                    <type>paper</type>
+                    <title>Eickhoff et al, 2014</title>
+                    <chapter>http://boston.lti.cs.cmu.edu/classes/11-642/Papers/eickhoff-wsdm14.pdf</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Personalization</title>
+                <reading>
+                    <type>paper</type>
+                    <title>Bennett et al, 2012</title>
+                    <chapter>http://research.microsoft.com/en-us/um/people/pauben/papers/bennett-et-al-sigir-2012.pdf</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Federated, aggregated, & vertical search</title>
+                <reading>
+                    <type>paper</type>
+                    <title>Si & Callan, 2003</title>
+                    <chapter>http://boston.lti.cs.cmu.edu/classes/Papers/sigir03-lsi.pdf</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Federated, aggregated, & vertical search</title>
+                <reading>
+                    <type>paper</type>
+                    <title>Arguello & Diaz, 2013</title>
+                    <chapter>http://boston.lti.cs.cmu.edu/classes/Papers/ArguelloDiazVerticalSelectionAggregation13.pdf</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Selective search</title>
+                <reading>
+                    <type>paper</type>
+                    <title>Kulkarni & Callan, 2010</title>
+                    <chapter>http://www.cs.cmu.edu/~callan/Papers/cikm10-akulkarni.pdf</chapter>
+                </reading>
+            </module>
+            <module>
+                <title>Enterprise search</title>
+            </module>
+
+        </modules>
+    </content>
+    <material>
+        <textbooks>
+            <textbook>
+                <title>Introduction to Information Retrieval</title>
+                <author>Christopher D. Manning, Prabhakar Raghavan, and Hinrich Schutze</author>
+                <press>Cambridge University Press</press>
+                <year>2008</year>
+                <url>http://nlp.stanford.edu/IR-book/</url>
+            </textbook>
+        </textbooks>
+    </material>
+</course>
