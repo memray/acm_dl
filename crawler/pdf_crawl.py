@@ -5,6 +5,9 @@ from time import sleep
 import random
 # from util.mysql_api import *
 
+'''
+Code for crawling PDF files from ACM digital library. The id of article is needed.
+'''
 def download(id):
     # url="http://dl.acm.org/ft_gateway.cfm?id="+id+"&ftid=1610216&dwn=1&CFID=555984911&CFTOKEN=15328294"
     url="http://dl.acm.org/ft_gateway.cfm?id="+id+"&type=pdf"
@@ -24,19 +27,22 @@ def download(id):
 
 
 pdf_dir = ""
-conference_name = "chi"
+conference_name = "uist"
 
 if __name__ == "__main__":
     project_root_dir = os.path.dirname(__file__)
     project_root_dir = project_root_dir[:project_root_dir.rfind('/')]
 
+    # check whether the given path exists
     pdf_dir = '/home/memray/Data/acm/pdf/'+conference_name+'/'
     if not os.path.exists(pdf_dir):
         os.makedirs(pdf_dir)
+
+
     # db=Connection(host='127.0.0.1',database='acm',user='root',password='123456')
     # for row in db.query('select * from acm_article limit 0,100'):
     id_file = open(os.path.join(project_root_dir,'data/paperurls/'+conference_name+'.txt'),'r')
-    fail_file = open(os.path.join(project_root_dir,'data/paperurls/fail.txt'),'w')
+    fail_file = open(os.path.join(project_root_dir,'data/paperurls/fail.txt'),'w+')
     count = 0
 
     while True:
@@ -70,3 +76,5 @@ if __name__ == "__main__":
                 delay=0
             print('Long sleep for '+str(delay)+'s')
             sleep(delay)
+    id_file.close()
+    fail_file.close()

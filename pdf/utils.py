@@ -12,41 +12,72 @@ exe_path = os.getcwd() + "\\poppler-0.36\\bin\\pdftotext.exe"
 # 存储处理后的txt路径
 # base_path = 'C:/Users/Roger/Desktop/Memary/txtData/'
 
-# 利用pdftotext.exe转化为html，读取单个pdf
-def pdftohtml(filePath, htmlpathList):
-    if not str(filePath).lower().endswith('pdf'):
+def pdftohtml(pdfFilePath, htmlDirectoryPath):
+    '''
+    用pdftotext -bbox转化为html,keep the layout information
+    each time process one pdf file
+    :param pdfFilePath: shows the path of pdf file
+    :param htmlDirectoryPath: the output path of converted HTML
+    :return htmlpath: the file path of output HTML file
+    '''
+    if not str(pdfFilePath).lower().endswith('pdf'):
         return
-    cmdStr = exe_path + " -bbox " + filePath
-    print(cmdStr)
-    dirpath = os.path.dirname(filePath)
-    basename = os.path.basename(filePath)
+    if sys.platform.lower().startswith('linux'):
+        cmdStr = "pdftotext -bbox " + pdfFilePath
+    elif sys.platform.lower().startswith('windows'):
+        cmdStr = exe_path + " -bbox " + pdfFilePath
+    else:
+        print('Unknown system platform:'+sys.platform)
+        return
+
+    # dirpath = os.path.dirname(pdfFilePath)
+    basename = os.path.basename(pdfFilePath)
     filename = basename[:len(basename) - 4]
-    htmlpath = dirpath + '\\' + filename + '.html'
+    htmlpath = htmlDirectoryPath + os.path.sep + filename + '.html'
+
+    cmdStr += ' ' + htmlpath
+    print(cmdStr)
+
+    # if already existed, means converted before, just skip
     if not os.path.exists(htmlpath):
         os.system(cmdStr)
+    else:
+        print('already exists')
     # print htmlpath
-    htmlpathList.append(htmlpath)
+    return htmlpath
 
 
-# 利用pdftotext.exe转化为html，读取一个目录
-def pdftohtmlDirectory(directoryPath, htmlpathList):
-    fileNameList = os.listdir(directoryPath)
-    fileList = []
-    print 'fileNameList:', fileNameList
-    for filename in fileNameList:
-        fileAbsPath = directoryPath + '\\' + filename
+def pdftohtmlDirectory(pdfDirectoryPath, htmlDirectoryPath):
+    '''
+    利用pdftotext.exe转化为html，process一个目录
+    :param pdfDirectoryPath: the DirectoryPath which contains the pdf files
+    :param pdfDirectoryPath: the DirectoryPath which contains the pdf files
+    :return htmlpathList: the paths of all the converted htmls
+    '''
+    fileDirectory = os.listdir(pdfDirectoryPath)
+    pdfList = []
+    htmlPathList = []
+    print 'fileNameList:', fileDirectory
+    for filename in fileDirectory:
+        fileAbsPath = pdfDirectoryPath + filename
         if os.path.isfile(fileAbsPath):
-            fileList.append(fileAbsPath)
+            pdfList.append(fileAbsPath)
         elif os.path.isdir(fileAbsPath):
             # 路径是目录，需要继续读取
-            fileList.extend(pdftohtmlDirectory(fileAbsPath, htmlpathList))
-    for fileAbsPath in fileList:
+            pdfList.extend(pdftohtmlDirectory(fileAbsPath, htmlPathList))
+
+    # iterate all the pdfs, and convert them into html(with layout information)
+    for fileAbsPath in pdfList:
         # print fileAbsPath
-        pdftohtml(fileAbsPath, htmlpathList)
+        htmlPathList.append(pdftohtml(fileAbsPath, htmlDirectoryPath))
+    return htmlPathList
 
-
-# 根据pdftohtml转化的坐标信息合并文本块， 按照中间、左栏、右栏以及从前到后的顺序合并成段落信息
 def htmltotext(htmlpath):
+    '''
+    根据pdftohtml转化的坐标信息合并文本块， 按照中间、左栏、右栏以及从前到后的顺序合并成段落信息
+    :param htmlpath: the file path of layout document, converted by "pdftotext -bbox" before
+    :return article_block, page_content_other: extracted pure text
+    '''
     page_objs = get_page_objs(htmlpath)
     # 存放一篇pdf所有区块，即左边和右边两种区块
     article_block = []
@@ -71,18 +102,20 @@ def htmltotext(htmlpath):
     return article_block, page_content_other
 
 
-# 存储转换后的内容article
-def saveText(article_block, htmlpath):
+def saveText(textDirectoryPath, article_block, article_id):
+    '''
+    存储转换后的内容article
+    '''
     # saveName = os.path.basename(htmlpath) + '.txt'
     # fp = open(base_path + saveName, 'w')
-    savePath = htmlpath[:len(htmlpath) - 5] + '.txt'
+    savePath = textDirectoryPath + article_id + '.txt'
     fp = open(savePath, 'w')
     for line in article_block:
         fp.write(line.text)
         fp.write('\n')
     fp.flush()
     fp.close()
-    print '[one text has been saved]'
+    print '[Text Saved]'+savePath
 
 
 # 提取title

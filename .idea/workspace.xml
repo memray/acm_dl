@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pdf/utils.py" line="68" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/pdf/utils.py" line="99" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a318da92-178c-4604-99a1-1da5cd4ae2b9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/paperurls/CIKM.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/paperurls/CSCW.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/paperurls/IUI.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/paperurls/JCDL.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/paperurls/UIST.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data/paperurls/WSDM.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/acm_dl.iml" afterPath="$PROJECT_DIR$/.idea/acm_dl.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/test/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf/pdftohtml.py" afterPath="$PROJECT_DIR$/pdf/test/pdftohtml.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/pdf_crawl.py" afterPath="$PROJECT_DIR$/crawler/pdf_crawl.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf/layout.py" afterPath="$PROJECT_DIR$/pdf/layout.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf/pdf2text.py" afterPath="$PROJECT_DIR$/pdf/pdf2text.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf/textparse.py" afterPath="$PROJECT_DIR$/pdf/textparse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf/utils.py" afterPath="$PROJECT_DIR$/pdf/utils.py" />
     </list>
     <ignored path="acmdl_crawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/acm_dl$pdf_crawl.coverage" NAME="pdf_crawl Coverage Results" MODIFIED="1453524853487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/acm_dl$pdf_crawl.coverage" NAME="pdf_crawl Coverage Results" MODIFIED="1454181379683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/acm_dl$keyword_extract.coverage" NAME="keyword_extract Coverage Results" MODIFIED="1448265158658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keyword/microsoft" />
     <SUITE FILE_PATH="coverage/acm_dl$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1451974355143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/embedding" />
     <SUITE FILE_PATH="coverage/acm_dl$enter.coverage" NAME="enter Coverage Results" MODIFIED="1445918039672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
@@ -38,8 +37,8 @@
     <SUITE FILE_PATH="coverage/acm_dl$keyword_read.coverage" NAME="keyword_read Coverage Results" MODIFIED="1448186371332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keyword/microsoft" />
     <SUITE FILE_PATH="coverage/acm_dl$textparse.coverage" NAME="textparse Coverage Results" MODIFIED="1447868524944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
     <SUITE FILE_PATH="coverage/acm_dl$keyword_extract__1_.coverage" NAME="keyword_extract (1) Coverage Results" MODIFIED="1448327620795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keywords/microsoft" />
+    <SUITE FILE_PATH="coverage/acm_dl$pdf2text.coverage" NAME="pdf2text Coverage Results" MODIFIED="1454386074117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
     <SUITE FILE_PATH="coverage/acm_dl$wdf.coverage" NAME="wdf Coverage Results" MODIFIED="1451974471023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/acm_dl$pdf2text.coverage" NAME="pdf2text Coverage Results" MODIFIED="1446512037641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -50,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pdf_crawl.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crawler/pdf_crawl.py">
+      <file leaf-file-name="textparse.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdf/textparse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6039604">
-              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.45544556">
+              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -65,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="XML" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -77,20 +76,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/acm_crawl.py" />
-        <option value="$PROJECT_DIR$/pdf/utils.py" />
         <option value="$PROJECT_DIR$/util/python_connection.py" />
         <option value="$PROJECT_DIR$/pdf/pdftotext.py" />
         <option value="$PROJECT_DIR$/pdf/enter.py" />
-        <option value="$PROJECT_DIR$/pdf/pdf2text.py" />
         <option value="$PROJECT_DIR$/pdf/textparser.py" />
-        <option value="$PROJECT_DIR$/pdf/textparse.py" />
         <option value="$PROJECT_DIR$/keyword/microsoft/keyword_read.py" />
         <option value="$PROJECT_DIR$/keyword/microsoft/keyword_extract.py" />
         <option value="$PROJECT_DIR$/keywords/microsoft/keyword_extract.py" />
         <option value="$PROJECT_DIR$/embedding/word2vec.py" />
         <option value="$PROJECT_DIR$/data/course/cmu.xml" />
         <option value="$PROJECT_DIR$/data/course/pitt.xml" />
+        <option value="$PROJECT_DIR$/data/paperurls/fail.txt" />
         <option value="$PROJECT_DIR$/crawler/pdf_crawl.py" />
+        <option value="$PROJECT_DIR$/pdf/pdf2text.py" />
+        <option value="$PROJECT_DIR$/pdf/utils.py" />
+        <option value="$PROJECT_DIR$/pdf/textparse.py" />
+        <option value="$PROJECT_DIR$/pdf/layout.py" />
       </list>
     </option>
   </component>
@@ -149,38 +150,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acm_dl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acmdl_crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acm_dl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="acmdl_crawler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paperurls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -191,10 +160,16 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pdf/test" />
+      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\data" />
+      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\paperurls" />
+      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\crawler" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\NetDrive\WorkSpace\python\acm_dl\data\course" />
       <recent name="H:\NetDrive\WorkSpace\python\acm_dl" />
@@ -202,31 +177,8 @@
       <recent name="H:\NetDrive\WorkSpace\python\acm_dl\util" />
       <recent name="H:\NetDrive\WorkSpace\python\acm_dl\crawler" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\data" />
-      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\paperurls" />
-      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\crawler" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.pdf_crawl">
-    <configuration default="false" name="keyword_extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keyword/microsoft" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="acm_dl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keyword/microsoft/keyword_extract.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.pdf2text">
     <configuration default="false" name="keyword_extract (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,6 +247,24 @@
       <module name="acm_dl" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/pdf_crawl.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="pdf2text" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pdf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="acm_dl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pdf/pdf2text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -494,19 +464,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.keyword_extract" />
-      <item index="1" class="java.lang.String" itemvalue="Python.keyword_extract (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.word2vec" />
-      <item index="3" class="java.lang.String" itemvalue="Python.wdf" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pdf_crawl" />
+      <item index="0" class="java.lang.String" itemvalue="Python.keyword_extract (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.word2vec" />
+      <item index="2" class="java.lang.String" itemvalue="Python.wdf" />
+      <item index="3" class="java.lang.String" itemvalue="Python.pdf_crawl" />
+      <item index="4" class="java.lang.String" itemvalue="Python.pdf2text" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.pdf_crawl" />
-        <item index="1" class="java.lang.String" itemvalue="Python.wdf" />
-        <item index="2" class="java.lang.String" itemvalue="Python.word2vec" />
-        <item index="3" class="java.lang.String" itemvalue="Python.keyword_extract (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.keyword_extract" />
+        <item index="0" class="java.lang.String" itemvalue="Python.pdf2text" />
+        <item index="1" class="java.lang.String" itemvalue="Python.pdf_crawl" />
+        <item index="2" class="java.lang.String" itemvalue="Python.wdf" />
+        <item index="3" class="java.lang.String" itemvalue="Python.word2vec" />
+        <item index="4" class="java.lang.String" itemvalue="Python.keyword_extract (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -534,16 +504,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1215" height="1026" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24423963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33090615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20823045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47640967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20823045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47613883" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46581876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31019524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31019524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -591,11 +562,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="fulltext[len(fulltext)-1]" language="Python" />
+        <watch expression="len(fileList)" language="Python" />
+        <watch expression="fileAbsPath" language="Python" />
+        <watch expression="len(fileNameList)" language="Python" />
+        <watch expression="sys.platform().system()" language="Python" />
+        <watch expression="sys.platform" language="Python" />
+        <watch expression="os.path.sep " language="Python" />
+        <watch expression="pdfDirectoryPath + os.path.sep + filename" language="Python" />
       </configuration>
     </watches-manager>
   </component>
@@ -649,7 +627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/pdftohtml.py">
+    <entry file="file://$PROJECT_DIR$/pdf/test/pdftohtml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
@@ -677,7 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/pdftohtml.py">
+    <entry file="file://$PROJECT_DIR$/pdf/test/pdftohtml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
@@ -698,7 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/pdftohtml.py">
+    <entry file="file://$PROJECT_DIR$/pdf/test/pdftohtml.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -712,39 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/layout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19349006">
-          <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/util/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.030303031">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/pdftohtml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/pdf2text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -787,13 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdf/textparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="114" selection-start-line="44" selection-start-column="89" selection-end-line="44" selection-end-column="114" />
         </state>
       </provider>
     </entry>
@@ -841,6 +783,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/paperurls/wsdm.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.06435644">
+          <caret line="338" column="7" selection-start-line="338" selection-start-column="7" selection-end-line="339" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/paperurls/cscw.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75247526">
+          <caret line="1317" column="7" selection-start-line="1317" selection-start-column="7" selection-end-line="1317" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/paperurls/fail.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -849,10 +807,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/poppler-0.36/bin/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9158416">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawler/pdf_crawl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6039604">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="14" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+          <folding>
+            <element signature="e#15#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/pdf2text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/layout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.074257426">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/test/pdftohtml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/textparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45544556">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
           <folding />
         </state>
       </provider>
