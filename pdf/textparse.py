@@ -1,6 +1,11 @@
 __author__ = 'Memray'
 import os
 
+'''
+As the pdf-converted text contains too much noice, so this code is used for filtering
+remove 1. reference 2. copyright
+'''
+
 directoryPath = 'E:\\acm_dl\\pdf\\ir\\'
 
 # read the file and return text after pre-process

@@ -1,7 +1,9 @@
 # -*- coding: utf-8
 from bs4 import BeautifulSoup
 import collections
-
+'''
+Used for extracting the layout of pdf text, and organized text blocks in a logical way
+'''
 class Page(object):
     def __init__(self, height, width):
         self.height = float(height)
