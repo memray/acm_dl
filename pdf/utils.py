@@ -109,13 +109,17 @@ def saveText(textDirectoryPath, article_block, article_id):
     # saveName = os.path.basename(htmlpath) + '.txt'
     # fp = open(base_path + saveName, 'w')
     savePath = textDirectoryPath + article_id + '.txt'
-    fp = open(savePath, 'w')
-    for line in article_block:
-        fp.write(line.text)
-        fp.write('\n')
-    fp.flush()
-    fp.close()
-    print '[Text Saved]'+savePath
+
+    if(not os.path.exists(savePath)):
+        fp = open(savePath, 'w')
+        for line in article_block:
+            fp.write(line.text)
+            fp.write('\n')
+        fp.flush()
+        fp.close()
+        print '[Text Saved]'+savePath
+    else:
+        print '[Text Exists]'+savePath
 
 
 # 提取title
