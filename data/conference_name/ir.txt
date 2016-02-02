@@ -1,0 +1,41 @@
+SIGIR
+TREC
+CIKM
+DL
+JCDL
+ECDL
+RIAO
+ECIR
+CLEF
+SPIRE
+Multimedia Information Retrieval
+TRECVID
+INEX
+DRR
+Dublin Core Conference
+IRAL
+ICADL
+AIRS
+COLIS
+RIAO
+ESSIR
+HIM
+AMR
+MIRA
+ICETET
+MIE
+Information Retrieval
+ADCS
+IIIX
+IRP2PN
+ISIWI
+Networked Information Retrieval
+CISSE
+CORIA
+New Developments in Digital Libraries
+Current Trends in SNePS
+IWRIDL
+ELSNET Summer School
+IuK
+CAW
+IR Workshop

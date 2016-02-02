@@ -1,0 +1,167 @@
+CHI
+CSCW
+UIST
+UbiComp
+IUI
+ECSCW
+ISWC
+DIS
+HCI
+HLT
+GROUP
+CISS
+AVI
+UM
+INTERACT
+ICMI
+Pervasive Computing
+Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems
+RO-MAN
+ASSETS
+ibm centre for advanced studies conference
+Mobile HCI
+SASN
+ICAD
+ICON
+BCS HCI Conference
+ETRA
+DSV-IS
+GW
+EHCI
+WSNA
+PDC
+MLMI
+SIGDOC
+IDC
+ACII
+USAB
+ACCG
+CUU
+MVA
+ACMACE
+OZCHI
+DIGRA
+ICNSC
+International conference on tangible and embedded interaction
+CADUI
+TABLETOP
+EUFIT
+AIRWEB
+ICCM
+C&C
+theoretical issues in natural language processing
+European Symposium on Ambient Intelligence
+FOAL
+CoBuild
+ICEC
+NORDICHI
+APCHI
+AUIC
+Workshop on Materialized
+ICCHP
+TAMODIA
+W4A
+Digital Cities
+User Interfaces for All
+DUX
+TLDI
+Haptic Human-Computer Interaction
+BMAS
+PERSUASIVE
+NIME
+EWHCI
+EUROITV
+IASTED
+WITS
+Designing Augmented Reality Environments
+MD
+IWAI
+Multikonferenz Wirtschaftsinformatik
+C5
+IE
+FPSAC
+ICIT
+KDEX
+Cooperative Systems Design
+Active Media Technology
+DPPI
+IFIP TC9/WG9.1 Publications
+ADS
+UIDIS
+AusWeb
+Mensch & Computer
+CANDC
+ACHI
+INTETAIN
+CSREAHCI
+Engineering for Human-Computer Interaction
+GFPW
+Artifical Intelligence for Human Computing
+IVMERAW
+ICETET
+ITHET
+Software-Ergonomie
+DIMEA
+Informatics and Psychology
+PIT
+WUAUC
+CHIMIT
+IHM
+IWIPS
+HAID
+InfoSecCD
+EUPROJECTS
+IFIP TC13 Publications
+DKSME
+ECLIPSE
+HPW
+WIW
+ABIS
+COCV
+HCC
+CHINZ
+VCHCI
+WSEAS
+BIWIT
+Future Play
+NATW
+MIXER
+CGAMES
+ICTE
+ICIS
+ExaCt
+Interaction Challenges for Intelligent Assistants
+SIGMAP
+IFIP WG13.2 Publications
+MBUI
+ETAPS
+DAGS
+IHC
+FDG
+Menschengerechte Groupware
+IFIP TC5/WG9.3 Publications
+HDMS
+auic
+INCOB
+MVHI
+Informatik und Gesellschaft
+Future Play
+MCI
+CFIP
+DART
+GccSummit
+ISDL
+WCFLP
+IO
+IUC
+EA
+STRATEGIES
+Arbeitsplätze morgen
+FMSE
+DACH
+SVG.Open
+COTIM
+IEEE Symposia on Human Centric Computing Languages and Environments
+ADC
+CRITICAL
+TEI
