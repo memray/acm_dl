@@ -19,7 +19,7 @@ if __name__ == '__main__':
     #     saveText(htmltotext(htmlpath), htmlpath)
 
     # 处理目录
-    conference_name = 'cikm'
+    conference_name = 'jcdl'
     # 存放需要处理的pdf的目录路径
     pdfDirectoryPath = '/home/memray/Data/acm/pdf/'+conference_name+os.path.sep
     htmlDirectoryPath = '/home/memray/Data/acm/html/'+conference_name+os.path.sep
