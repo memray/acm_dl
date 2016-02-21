@@ -1,117 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/textbook/ir_pipeline.py" line="579" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a318da92-178c-4604-99a1-1da5cd4ae2b9" name="Default" comment="similarity change">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/pilot_code.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/significance_test.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textbook/similarity.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/PdfToText.zip" afterPath="$PROJECT_DIR$/data/PdfToText.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/pdf2txt_sample.zip" afterPath="$PROJECT_DIR$/data/pdf2txt_sample.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/embedding/acm_fulltext_model" afterPath="$PROJECT_DIR$/embedding/acm_fulltext_model" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/README-XPDF" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/README-XPDF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/freetype6.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/freetype6.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/jpeg62.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/jpeg62.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libcairo-2.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libcairo-2.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libexpat-1.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libexpat-1.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libfontconfig-1.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libfontconfig-1.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libgcc_s_dw2-1.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libgcc_s_dw2-1.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libpixman-1-0.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libpixman-1-0.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libpng16-16.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libpng16-16.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libpoppler-cpp.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libpoppler-cpp.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libpoppler.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libpoppler.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libstdc++-6.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libstdc++-6.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libtiff3.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/libtiff3.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfdetach.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfdetach.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdffonts.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdffonts.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfimages.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfimages.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfinfo.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfinfo.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfseparate.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfseparate.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftocairo.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftocairo.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftohtml.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftohtml.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftoppm.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftoppm.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftops.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftops.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftotext.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdftotext.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfunite.exe" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/pdfunite.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/zlib1.dll" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/zlib1.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/acm_dl.iml" afterPath="$PROJECT_DIR$/.idea/acm_dl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/ir_pipeline.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/log_analyze.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/textbook/pipeline.py" afterPath="$PROJECT_DIR$/textbook/algebra_pipeline.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/__init__.py" afterPath="$PROJECT_DIR$/crawler/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/acm_crawl_demo.py" afterPath="$PROJECT_DIR$/crawler/acm_crawl_demo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/pdf_crawl.py" afterPath="$PROJECT_DIR$/crawler/pdf_crawl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/conference_name/hci.txt" afterPath="$PROJECT_DIR$/data/conference_name/hci.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/conference_name/ir.txt" afterPath="$PROJECT_DIR$/data/conference_name/ir.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/course/cmu.xml" afterPath="$PROJECT_DIR$/data/course/cmu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/course/pitt.xml" afterPath="$PROJECT_DIR$/data/course/pitt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/RecSys.txt" afterPath="$PROJECT_DIR$/data/paperurls/RecSys.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/chi.txt" afterPath="$PROJECT_DIR$/data/paperurls/chi.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/cikm.txt" afterPath="$PROJECT_DIR$/data/paperurls/cikm.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/cscw.txt" afterPath="$PROJECT_DIR$/data/paperurls/cscw.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/fail.txt" afterPath="$PROJECT_DIR$/data/paperurls/fail.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/iui.txt" afterPath="$PROJECT_DIR$/data/paperurls/iui.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/jcdl.txt" afterPath="$PROJECT_DIR$/data/paperurls/jcdl.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/sigir.txt" afterPath="$PROJECT_DIR$/data/paperurls/sigir.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/uist.txt" afterPath="$PROJECT_DIR$/data/paperurls/uist.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/paperurls/wsdm.txt" afterPath="$PROJECT_DIR$/data/paperurls/wsdm.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stopword/stopword_en.txt" afterPath="$PROJECT_DIR$/data/stopword/stopword_en.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/MySQLConnector.py" afterPath="$PROJECT_DIR$/database/MySQLConnector.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/conference_match.py" afterPath="$PROJECT_DIR$/database/conference_match.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/embedding/__init__.py" afterPath="$PROJECT_DIR$/embedding/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/embedding/word2vec.py" afterPath="$PROJECT_DIR$/embedding/word2vec.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywords/__init__.py" afterPath="$PROJECT_DIR$/keywords/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywords/acm/__init__.py" afterPath="$PROJECT_DIR$/keywords/acm/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywords/microsoft/__init__.py" afterPath="$PROJECT_DIR$/keywords/microsoft/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywords/microsoft/keyword_extract.py" afterPath="$PROJECT_DIR$/keywords/microsoft/keyword_extract.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywords/microsoft/keyword_read.py" afterPath="$PROJECT_DIR$/keywords/microsoft/keyword_read.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/__init__.py" afterPath="$PROJECT_DIR$/pdfparser/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/layout.py" afterPath="$PROJECT_DIR$/pdfparser/layout.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/pdf2text.py" afterPath="$PROJECT_DIR$/pdfparser/pdf2text.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/AUTHORS" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/AUTHORS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/BINARIES" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/BINARIES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/COPYING" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/COPYING" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/COPYING3" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/COPYING3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/README" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/TODO" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/TODO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/a" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/a.html" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/bin/a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-document.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-document.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-embedded-file.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-embedded-file.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-font.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-font.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-global.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-global.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-image.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-image.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-page-renderer.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-page-renderer.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-page-transition.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-page-transition.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-page.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-page.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-rectangle.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-rectangle.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-toc.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-toc.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-version.h" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/include/poppler/cpp/poppler-version.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfdetach.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfdetach.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdffonts.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdffonts.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfimages.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfimages.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfinfo.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfinfo.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfseparate.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfseparate.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftocairo.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftocairo.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftohtml.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftohtml.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftoppm.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftoppm.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftops.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftops.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftotext.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdftotext.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfunite.1" afterPath="$PROJECT_DIR$/pdfparser/poppler-0.36/share/man/man1/pdfunite.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/test/__init__.py" afterPath="$PROJECT_DIR$/pdfparser/test/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/test/pdftohtml.py" afterPath="$PROJECT_DIR$/pdfparser/test/pdftohtml.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/textparse.py" afterPath="$PROJECT_DIR$/pdfparser/textparse.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdfparser/utils.py" afterPath="$PROJECT_DIR$/pdfparser/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/textbook/__init__.py" afterPath="$PROJECT_DIR$/textbook/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/textbook/metric/__init__.py" afterPath="$PROJECT_DIR$/textbook/metric/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/textbook/metric/rank_metrics.py" afterPath="$PROJECT_DIR$/textbook/metric/rank_metrics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/__init__.py" afterPath="$PROJECT_DIR$/util/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/mysql_api.py" afterPath="$PROJECT_DIR$/util/mysql_api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/textbook/significance_test.py" afterPath="$PROJECT_DIR$/textbook/significance_test.py" />
     </list>
     <ignored path="acmdl_crawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,14 +23,16 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/acm_dl$algebra_pipeline.coverage" NAME="algebra_pipeline Coverage Results" MODIFIED="1456017327768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook" />
     <SUITE FILE_PATH="coverage/acm_dl$acm_crawl.coverage" NAME="acm_crawl Coverage Results" MODIFIED="1446475904665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
     <SUITE FILE_PATH="coverage/acm_dl$pdf_crawl.coverage" NAME="pdf_crawl Coverage Results" MODIFIED="1454181379683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/acm_dl$word2vec.coverage" NAME="word2vec Coverage Results" MODIFIED="1451974355143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/embedding" />
     <SUITE FILE_PATH="coverage/acm_dl$rank_metrics.coverage" NAME="rank_metrics Coverage Results" MODIFIED="1454480718279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook/metric" />
+    <SUITE FILE_PATH="coverage/acm_dl$log_analyze.coverage" NAME="log_analyze Coverage Results" MODIFIED="1456019655964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook" />
     <SUITE FILE_PATH="coverage/acm_dl$keyword_extract__1_.coverage" NAME="keyword_extract (1) Coverage Results" MODIFIED="1448327620795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keywords/microsoft" />
     <SUITE FILE_PATH="coverage/acm_dl$keyword_extract.coverage" NAME="keyword_extract Coverage Results" MODIFIED="1448265158658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keyword/microsoft" />
     <SUITE FILE_PATH="coverage/acm_dl$Doctest_ndcg_at_k.coverage" NAME="Doctest ndcg_at_k Coverage Results" MODIFIED="1454480710716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook/metric" />
-    <SUITE FILE_PATH="coverage/acm_dl$pipeline.coverage" NAME="pipeline Coverage Results" MODIFIED="1455527763716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook" />
+    <SUITE FILE_PATH="coverage/acm_dl$pipeline.coverage" NAME="pipeline Coverage Results" MODIFIED="1456018721147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook" />
     <SUITE FILE_PATH="coverage/acmdl_crawler$acm_crawl.coverage" NAME="acm_crawl Coverage Results" MODIFIED="1444244965532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/acm_dl$keyword_read.coverage" NAME="keyword_read Coverage Results" MODIFIED="1448186371332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/keyword/microsoft" />
     <SUITE FILE_PATH="coverage/acm_dl$textparse.coverage" NAME="textparse Coverage Results" MODIFIED="1447868524944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
@@ -140,7 +40,7 @@
     <SUITE FILE_PATH="coverage/acm_dl$similarity.coverage" NAME="similarity Coverage Results" MODIFIED="1455171871394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook" />
     <SUITE FILE_PATH="coverage/acm_dl$wdf.coverage" NAME="wdf Coverage Results" MODIFIED="1451974471023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/acm_dl$enter.coverage" NAME="enter Coverage Results" MODIFIED="1445918039672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pdf" />
-    <SUITE FILE_PATH="coverage/acm_dl$significance_test.coverage" NAME="significance_test Coverage Results" MODIFIED="1455613720663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook" />
+    <SUITE FILE_PATH="coverage/acm_dl$significance_test.coverage" NAME="significance_test Coverage Results" MODIFIED="1456019565593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/textbook" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -150,45 +50,63 @@
     <favorites_list name="acmdl_crawler" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pipeline.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/textbook/pipeline.py">
+    <leaf>
+      <file leaf-file-name="significance_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textbook/significance_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="369" column="33" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#105#344#0" expanded="false" />
+                <element signature="e#372#758#0" expanded="false" />
+                <element signature="e#809#1305#0" expanded="false" />
+                <element signature="e#1344#2352#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="significance_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/textbook/significance_test.py">
+      <file leaf-file-name="algebra_pipeline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textbook/algebra_pipeline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49916804">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.885714">
+              <caret line="473" column="0" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1456017321482" expanded="true" signature="14910:15207" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log_analyze.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/textbook/log_analyze.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parsers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/pandas/io/parsers.py">
+      <file leaf-file-name="corpus_algebra_five.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/corpus_algebra_five.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="946" column="0" selection-start-line="946" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
+            <state vertical-scroll-proportion="19997.535">
+              <caret line="974" column="5444" selection-start-line="974" selection-start-column="5444" selection-end-line="974" selection-end-column="5444" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/scipy/__init__.py">
+      <file leaf-file-name="ir_pipeline.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/textbook/ir_pipeline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="6" />
-              <folding />
+            <state vertical-scroll-proportion="0.6231156">
+              <caret line="463" column="31" selection-start-line="463" selection-start-column="31" selection-end-line="463" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -235,7 +153,17 @@
         <option value="$USER_HOME$/anaconda2/lib/python2.7/site-packages/gensim/similarities/docsim.py" />
         <option value="$PROJECT_DIR$/textbook/similarity.py" />
         <option value="$PROJECT_DIR$/textbook/pipeline.py" />
+        <option value="$PROJECT_DIR$/../textbook_analyzer/data/corpus_textbook+sigir_keyword_only.txt" />
+        <option value="$USER_HOME$/Desktop/final_100_log_file.txt" />
+        <option value="$USER_HOME$/Desktop/another_final_100_log_file(with pure keyword).txt" />
+        <option value="$PROJECT_DIR$/../textbook_analyzer/data/corpus_algebra_two.txt" />
+        <option value="$PROJECT_DIR$/../textbook_analyzer/data/corpus_algebra_five.txt" />
         <option value="$PROJECT_DIR$/textbook/significance_test.py" />
+        <option value="$PROJECT_DIR$/textbook/algebra_pipeline.py" />
+        <option value="$USER_HOME$/Desktop/algebra_log_file.txt" />
+        <option value="$PROJECT_DIR$/textbook/ir_pipeline.py" />
+        <option value="$USER_HOME$/Desktop/algebra_result_file.txt" />
+        <option value="$PROJECT_DIR$/textbook/log_analyze.py" />
       </list>
     </option>
   </component>
@@ -246,9 +174,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="52" />
-    <option name="width" value="1195" />
-    <option name="height" value="972" />
+    <option name="y" value="-4" />
+    <option name="width" value="1215" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -275,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -341,8 +271,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,9 +279,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="experiment&#9;null&#9;null&#10;load&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="load_groun&#9;null&#9;null&#10;experiment&#9;null&#9;null&#10;load&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pdf/test" />
+      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\data" />
+      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\paperurls" />
+      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\crawler" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/textbook" />
       <recent name="H:\NetDrive\WorkSpace\python\acm_dl\data\course" />
@@ -361,14 +295,8 @@
       <recent name="H:\NetDrive\WorkSpace\python\acm_dl\keyword\microsoft" />
       <recent name="H:\NetDrive\WorkSpace\python\acm_dl\util" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pdf/test" />
-      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\data" />
-      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\paperurls" />
-      <recent name="H:\NetDrive\WorkSpace\python\acm_dl\crawler" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.significance_test">
+  <component name="RunManager" selected="Python.log_analyze">
     <configuration default="false" name="similarity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,44 +315,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Doctest ndcg_at_k" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textbook/metric" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="acm_dl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textbook/metric/rank_metrics.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="ndcg_at_k" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="rank_metrics" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textbook/metric" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="acm_dl" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textbook/metric/rank_metrics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -438,7 +328,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="acm_dl" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textbook/pipeline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textbook/ir_pipeline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -457,6 +347,42 @@
       <module name="acm_dl" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textbook/significance_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="algebra_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textbook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="acm_dl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textbook/algebra_pipeline.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="log_analyze" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/textbook" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="acm_dl" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/textbook/log_analyze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -676,18 +602,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.pdf2text" />
       <item index="1" class="java.lang.String" itemvalue="Python.similarity" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Doctest ndcg_at_k" />
-      <item index="3" class="java.lang.String" itemvalue="Python.rank_metrics" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pipeline" />
-      <item index="5" class="java.lang.String" itemvalue="Python.significance_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pipeline" />
+      <item index="3" class="java.lang.String" itemvalue="Python.significance_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.algebra_pipeline" />
+      <item index="5" class="java.lang.String" itemvalue="Python.log_analyze" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.significance_test" />
-        <item index="1" class="java.lang.String" itemvalue="Python.pipeline" />
-        <item index="2" class="java.lang.String" itemvalue="Python.similarity" />
-        <item index="3" class="java.lang.String" itemvalue="Python.rank_metrics" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Doctest ndcg_at_k" />
+        <item index="0" class="java.lang.String" itemvalue="Python.log_analyze" />
+        <item index="1" class="java.lang.String" itemvalue="Python.significance_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.pipeline" />
+        <item index="3" class="java.lang.String" itemvalue="Python.algebra_pipeline" />
+        <item index="4" class="java.lang.String" itemvalue="Python.similarity" />
       </list>
     </recent_temporary>
   </component>
@@ -732,51 +658,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="1195" height="972" extended-state="0" />
+    <frame x="65" y="-4" width="1215" height="1028" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20334728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48519737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32878152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46581876" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3181818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30567226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33090615" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24423963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24423963" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45779222" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45693278" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32878152" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24423963" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26618123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5380184" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -797,142 +702,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="88" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/textbook/algebra_pipeline.py</url>
+          <line>522</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="133" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="sig_test" language="Python" />
-        <watch expression="sig_test[1]" language="Python" />
+        <watch expression="re.sub(r'\W+|\d+', '', '||35')" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/gensim/models/tfidfmodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/lda/books-lda-twobooks/corpus-2books.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="2368" selection-start-line="0" selection-start-column="2368" selection-end-line="0" selection-end-column="2368" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/mysql_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/acm_crawl_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/pdf_crawl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/mysql_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/acm_crawl_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/acm_crawl_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/acm_crawl_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/acm_crawl_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030303031">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keywords/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keywords/microsoft/keyword_extract.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4829932">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keywords/microsoft/keyword_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2568027">
-          <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="79" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/mysql_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/paperurls/sigir.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5178876">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/embedding/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/paperurls/chi.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3529412">
@@ -1080,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/gensim/similarities/docsim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.714286">
-          <caret line="156" column="36" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/gensim/matutils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1108,24 +886,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/lda/books-lda-twobooks/corpus-2books.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="2368" selection-start-line="0" selection-start-column="2368" selection-end-line="0" selection-end-column="2368" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm50/system/python_stubs/274314021/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2675" column="8" selection-start-line="2675" selection-start-column="8" selection-end-line="2675" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/textbook/pilot_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.285714">
-          <caret line="248" column="68" selection-start-line="248" selection-start-column="39" selection-end-line="248" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -1140,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="6" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,25 +911,183 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="946" column="0" selection-start-line="946" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/lda/books-lda+sigir-periods/corpus-books.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-717.2514">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/lda/books-lda+sigir-periods/corpus-merged-1971-2001.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textbook/pilot_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68159205">
+          <caret line="284" column="47" selection-start-line="284" selection-start-column="35" selection-end-line="284" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/gensim/similarities/docsim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="512" column="0" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/lda/books-lda-twobooks/corpus-2books.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-349.66086">
+          <caret line="0" column="2890" selection-start-line="0" selection-start-column="2890" selection-end-line="0" selection-end-column="2890" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/lda/books-lda-twobooks+sigir/corpus-twobooks+sigir.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.606947">
+          <caret line="527" column="3041" selection-start-line="527" selection-start-column="3041" selection-end-line="527" selection-end-column="3041" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/scipy/stats/stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58161646">
+          <caret line="280" column="14" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.318542">
+          <caret line="2873" column="0" selection-start-line="2873" selection-start-column="0" selection-end-line="2873" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/core/_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.318542">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/ir_groundtruth.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7156398">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/textbook/pipeline.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_comm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33260393">
+          <caret line="1073" column="0" selection-start-line="1073" selection-start-column="0" selection-end-line="1073" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_vars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33260393">
+          <caret line="349" column="0" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd_exec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="369" column="33" selection-start-line="369" selection-start-column="33" selection-end-line="369" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/corpus_algebra_two.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.806962">
+          <caret line="538" column="2818" selection-start-line="538" selection-start-column="2818" selection-end-line="538" selection-end-column="2818" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/result/wrong_training&amp;testing/final_100_log_file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/algebra_result_file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/algebra_log_file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0886075">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textbook/log_analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../textbook_analyzer/data/corpus_algebra_five.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="19997.535">
+          <caret line="974" column="5444" selection-start-line="974" selection-start-column="5444" selection-end-line="974" selection-end-column="5444" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/textbook/significance_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49916804">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#105#344#0" expanded="false" />
+            <element signature="e#372#758#0" expanded="false" />
+            <element signature="e#809#1305#0" expanded="false" />
+            <element signature="e#1344#2352#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textbook/algebra_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.885714">
+          <caret line="473" column="0" selection-start-line="473" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1456017321482" expanded="true" signature="14910:15207" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/textbook/ir_pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6231156">
+          <caret line="463" column="31" selection-start-line="463" selection-start-column="31" selection-end-line="463" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
