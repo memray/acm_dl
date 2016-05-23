@@ -4,26 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/textbook/knowledge_linking/ir_pipeline.py" line="601" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a318da92-178c-4604-99a1-1da5cd4ae2b9" name="Default" comment="similarity change">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/keyword_extract/keyword_only_duplicated.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/sci_export.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/keywords/acm/keyword_identifier.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/knowledge_linking/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/knowledge_predicting/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/knowledge_predicting/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/textbook/knowledge_predicting/sequence_predict.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textbook/algebra_pipeline.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textbook/ir_pipeline.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textbook/log_analyze.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textbook/metric/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textbook/metric/rank_metrics.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textbook/pilot_code.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textbook/significance_test.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/acm_dl.iml" afterPath="$PROJECT_DIR$/.idea/acm_dl.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="a318da92-178c-4604-99a1-1da5cd4ae2b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stopword/stopword_en.txt" afterPath="$PROJECT_DIR$/data/stopword/stopword_en.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/embedding/word2vec.py" afterPath="$PROJECT_DIR$/embedding/word2vec.py" />
     </list>
     <ignored path="acmdl_crawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -634,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1454487133899</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="similarity change">
+      <created>1464037068770</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1464037068770</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
