@@ -24,9 +24,9 @@ def process_sentences(path):
                 sentences.append(words)
     return sentences
 
-action = "test"
+action = "train"
 
-input_dir_path = "E:\\acm_dl\\pdf\\ir\\phrase_extracted\\"
+input_dir_path = "/home/memray/Data/acm/text/cikm/"
 if action == "train":
     tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
