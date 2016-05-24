@@ -20,8 +20,8 @@ class MySQLConnector(object):
                 self.dbpassword = passwd
                 self.dbname = database
                 MySQLConnector._instance.connect(debug);
-        except Exception, e:
-            print "MySQL Error " + str(e);
+        except Exception as e:
+            print("MySQL Error " + str(e));
 
     def instance(self):
         return MySQLConnector._instance;
@@ -33,9 +33,9 @@ class MySQLConnector(object):
         try:
             MySQLConnector._connection = pymysql.connect(self.dbhost, self.dbuser, self.dbpassword, self.dbname);
             if debug:
-                print "INFO: Database connection successfully established";
-        except Exception, e:
-            print "ERROR: MySQL Connection Couldn't be created... Fatal Error! " + str(e);
+                print("INFO: Database connection successfully established")
+        except Exception as e:
+            print("ERROR: MySQL Connection Couldn't be created... Fatal Error! " + str(e))
             sys.exit();
 
     def disconnect(self):
